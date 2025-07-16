@@ -1,0 +1,57 @@
+{
+  "tests": [
+    {
+      "type": "item",
+      "pytest_name": "test_login.py",
+      "label": "Login Test",
+      "parameters": {
+        "user": "admin",
+        "pass": "password123"
+      }
+    },
+    {
+      "type": "group",
+      "label": "Data Validation Group",
+      "items": [
+        {
+          "type": "item",
+          "pytest_name": "test_data_validation.py",
+          "label": "Validate User Data",
+          "parameters": { "data_type": "user" }
+        },
+        {
+          "type": "item",
+          "pytest_name": "test_data_validation.py",
+          "label": "Validate Product Data",
+          "parameters": { "data_type": "product" }
+        },
+        {
+          "type": "item",
+          "pytest_name": "test_data_validation.py",
+          "label": "Validate Order Data",
+          "parameters": { "data_type": "order" }
+        }
+      ]
+    },
+    {
+      "type": "item",
+      "pytest_name": "test_performance.py",
+      "label": "Performance Test",
+      "parameters": {
+        "duration": 5
+      }
+    },
+    {
+      "type": "item",
+      "pytest_name": "test_logout.py",
+      "label": "Logout Test",
+      "parameters": {}
+    },
+    {
+      "type": "item",
+      "pytest_name": "test_power_supply_online.py",
+      "label": "ACAD Power Supply Online Test",
+      "parameters": {}
+    }
+  ]
+}
