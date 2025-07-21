@@ -15,7 +15,7 @@ Before running this project, ensure you have the following installed:
 1.  **Clone the repository** (if you haven't already):
     ```bash
     git clone <repository_url>
-    cd pyqtui_ori
+    cd pyqtui
     ```
     (Replace `<repository_url>` with the actual URL of your repository.)
 
